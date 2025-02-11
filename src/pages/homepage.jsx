@@ -12,7 +12,7 @@ import {
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
-import NavBar from "../components/common/navBar";
+import NavBar from "../components/common/HomePageNavBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
@@ -104,8 +104,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
-											alt="about"
+											src="Copy of davi-3.jpg"
+											alt="aboulis"
 											className="homepage-image"
 										/>
 									</div>
