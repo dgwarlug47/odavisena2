@@ -21,15 +21,9 @@ const NavBar = (props) => {
                             >
                                 <Link to="/projects">Project Übermensch</Link>
                             </li>
-                            <li
-                                className={
-                                    active === "articles"
-                                        ? "nav-item active"
-                                        : "nav-item"
-                                }
-                            >
-                                <Link to="/articles">Articles</Link>
-                            </li>
+                                <a href="https://vamosargentina.phd">
+					                    Visit Vamos Argentina
+				                </a>
                         </ul>
                     </div>
                 </nav>

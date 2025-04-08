@@ -9,29 +9,21 @@ const Footer = () => {
 			<div className="footer">
 				<div className="footer-links">
 					<ul className="footer-nav-link-list">
-						<li className="footer-nav-link-item">
-							<Link to="/">Home</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/about">About</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
-						</li>
+						"And I will love to see that day,
+that day is mine
+when she will marry me outside with the willow trees
+and play the songs we made,
+they made me so,
+and I would love to see that day,
+her day was mine"
+
+
+					</ul>
+					<ul>
+						- Postcards from Italy, Beirut
 					</ul>
 				</div>
 
-				<div className="footer-credits">
-					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
-					</div>
-				</div>
 			</div>
 		</React.Fragment>
 	);

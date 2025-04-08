@@ -135,8 +135,8 @@ Directory: `/src/data/`
     	{
     		page: "home",
     		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+    			"Hello. It's a pleasure to get to know you. This is my personal website, where I talk a bit about who I am. My name is Davi Cavalcanti Sena",
+    		keywords: ["Davi"],
     	},
     ];
     ```

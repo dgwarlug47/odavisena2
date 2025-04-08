@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Self-entitled epistemophiliac polymath",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hello. It's a pleasure to get to know you. This is my personal website, where I talk a bit about who I am. My name is Davi Cavalcanti Sena, I was born in Recife, Brazil at June 20, 2000. When I was younger I would spend most of my time studying mathematics for the national olympiad where I ranked well a couple of times. Due to my performance at these math olympiads I was able to study Computer Science and Mathematics at the University of Waterloo, where I gradudated at June 2023. During my university I was very undecisive of what I should do about my career, initially I wanted to be a mathematician or a quant, but I ended up deciding to become a software engineer to pay the bills. I still have hopes of doing something meaningful in my career but that hasn't happened yet. On my personal life, I enjoy studying anything really. I doesn't matter if it's philosophy or anthropology, I really like to use my imagination and understanding the core concepts of the reality that behold us.",
 	},
 
 	about: {
