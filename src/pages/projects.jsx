@@ -20,7 +20,7 @@ const Projects = () => {
 
 	return (
 		<React.Fragment>
-			<iframe src="https://cooperative-script-4c9.notion.site/ebd/11da22d11f6e80d4b389f68b8e135f8f" width="100%" height="800" frameborder="0" allowfullscreen />
+			<iframe src="https://cooperative-script-4c9.notion.site/ebd/11da22d11f6e80d4b389f68b8e135f8f" width="100%" height="2000" frameborder="0" allowfullscreen />
 		</React.Fragment>
 	);
 };
