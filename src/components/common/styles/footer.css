@@ -1,63 +1,83 @@
 @import "../../../data/styles.css";
 
 .footer {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.footer-quote-wrap {
 	display: flex;
-	padding-top: 25px;
-	margin-top: 50px;
-	padding-bottom: 25px;
-	align-items: center;
+	justify-content: center;
 }
 
-.footer-links,
-.footer-credits {
-	flex-basis: 50%;
+.footer-quote-card {
+	position: relative;
+	max-width: 820px;
+	padding: 28px 28px 24px;
+	border-radius: 18px;
+	border: 1px solid #d7e8e4;
+	background:
+		radial-gradient(circle at top right, rgba(20, 184, 166, 0.12), transparent 52%),
+		linear-gradient(180deg, #ffffff 0%, #f8fcfb 100%);
+	box-shadow: 0 12px 36px rgba(39, 39, 42, 0.09);
 }
 
-.footer-links {
-	margin-left: -40px;
+.footer-quote-mark {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	margin: 0;
+	font-size: 52px;
+	line-height: 1;
+	font-family: Georgia, "Times New Roman", serif;
+	color: #9ecdc4;
 }
 
-.footer-nav-link-list {
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
-	align-items: center;
+.footer-quote-text {
+	margin: 0;
+	padding-left: 22px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+	line-height: 1.65;
+	letter-spacing: 0.1px;
+	color: #2d3640;
 }
 
-.footer-nav-link-item {
-	font-weight: bold;
-	font-size: 80%;
-}
-
-.footer-nav-link-list a {
-	text-decoration: none;
-	color: var(--secondary-color);
-}
-
-.footer-nav-link-list a:hover {
-	color: var(--link-color);
-}
-
-.footer-credits-text {
-	justify-content: flex-end;
-	color: var(--tertiary-color);
-	font-size: 14px;
-	text-align: right;
+.footer-quote-source {
+	display: inline-block;
+	margin-top: 16px;
+	padding-top: 12px;
+	padding-left: 22px;
+	border-top: 1px solid #dfeeea;
+	font-style: normal;
+	font-family: var(--primary-font);
+	font-size: 13px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #5f7e78;
 }
 
 @media (max-width: 600px) {
 	.footer {
-		flex-direction: column;
-		height: 85px;
+		padding-top: 28px;
 	}
 
-	.footer-links {
-		display: flex;
-		width: 100%;
-		justify-content: center;
+	.footer-quote-card {
+		padding: 22px 18px 18px;
 	}
 
-	.footer-nav-link-list {
-		width: 100%;
+	.footer-quote-mark {
+		font-size: 42px;
+		left: 12px;
+	}
+
+	.footer-quote-text {
+		padding-left: 18px;
+		font-size: 17px;
+	}
+
+	.footer-quote-source {
+		padding-left: 18px;
+		font-size: 12px;
 	}
 }
