@@ -75,21 +75,31 @@ const Homepage = () => {
 								</p>
 							</div>
 
-							<div className="homepage-profile-panel">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="/Copy of davi-3.jpg"
-											alt="Portrait of Davi Cavalcanti Sena"
-											className="homepage-image"
-										/>
-									</div>
+							<div className="homepage-hero-lower">
+								<div className="homepage-symbol-panel">
+									<img
+										src="/brahman-statue.png"
+										alt="Golden four-faced Brahma statue against a blue sky"
+										className="homepage-symbol-image"
+									/>
 								</div>
-								<p className="homepage-bio">
-									I am Davi Cavalcanti Sena, a software engineer and lifelong learner focused on integrating
-									technical practice with a structured study of human knowledge. Project Brahman is the
-									system I use to turn curiosity into disciplined progress.
-								</p>
+
+								<div className="homepage-profile-panel">
+									<div className="homepage-image-container">
+										<div className="homepage-image-wrapper">
+											<img
+												src="/Copy of davi-3.jpg"
+												alt="Portrait of Davi Cavalcanti Sena"
+												className="homepage-image"
+											/>
+										</div>
+									</div>
+									<p className="homepage-bio">
+										I am Davi Cavalcanti Sena, a software engineer and lifelong learner focused on integrating
+										technical practice with a structured study of human knowledge. Project Brahman is the
+										system I use to turn curiosity into disciplined progress.
+									</p>
+								</div>
 							</div>
 						</section>
 
