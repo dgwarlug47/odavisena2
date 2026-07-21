@@ -95,8 +95,7 @@ const Homepage = () => {
 										</div>
 									</div>
 									<p className="homepage-bio">
-										I am Davi Cavalcanti Sena, a software engineer and lifelong learner focused on integrating
-										technical practice with a structured study of human knowledge. Project Brahman is the
+										I am Davi Cavalcanti Sena, a lifelong learner, with aspirations of being an epistemophiliac polymath. Project Brahman is the
 										system I use to turn curiosity into disciplined progress.
 									</p>
 								</div>
